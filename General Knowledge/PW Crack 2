@@ -1,0 +1,3 @@
+# Yep, just ignore the str_xor function again and perform the ASCII to Text conversion as seen in the if statement:
+
+picoCTF{tr45h_51ng1ng_9701e681}

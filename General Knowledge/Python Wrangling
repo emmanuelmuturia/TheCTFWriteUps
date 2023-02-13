@@ -1,0 +1,5 @@
+# Simply run the script: python3 [name of the Python script] -d [name of the flag file]
+# Enter the provided password when prompted...
+# Voila! You get the following flag:
+
+picoCTF{4p0110_1n_7h3_h0us3_68f88f93}

@@ -1,0 +1,3 @@
+# Run the command: cat [nc command] > [nameOfTheNewFile] and then grep "pico" [nameOfFile] to get:
+
+picoCTF{digital_plumb3r_06e9d954}

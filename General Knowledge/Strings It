@@ -1,0 +1,4 @@
+# Run the command: strings [fileName] | grep pico
+# This will search through the file and output any word beginning with "pico" and the result will be:
+
+picoCTF{5tRIng5_1T_827aee91}
