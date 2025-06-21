@@ -1,4 +1,4 @@
-# Task #7: QRrrrr
+# Task #7: Reverse it or read it?
 
 Reverse it or read it?
 
