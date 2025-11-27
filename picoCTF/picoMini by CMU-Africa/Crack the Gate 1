@@ -1,0 +1,26 @@
+# Crack the Gate 1
+
+We’re in the middle of an investigation. One of our persons of interest, ctf player, is believed to be hiding sensitive data inside a restricted web portal. We’ve uncovered the email address he uses to log in: ctf-player@picoctf.org. Unfortunately, we don’t know the password, and the usual guessing techniques haven’t worked. But something feels off... it’s almost like the developer left a secret way in. Can you figure it out?
+Additional details will be available after launching your challenge instance.
+
+## Background
+
+This Challenge had a downloadable Log File along with two Hints:
+
+1] Developers sometimes leave notes in the code; but not always in plain text.
+2] A common trick is to rotate each letter by 13 positions in the alphabet.
+
+It was classified under "Web Exploitation", and therefore it meant that it required you to apply some Web Application Security concepts to retrieve The Flag...
+
+## Procedure
+
+**Step #1:** The first step would be to view the Page Source, and sure enough, you will get a Comment written in ROT13. Decode that using a ROT13 Decoder to find the value of the Header which would allow a successful Login, despite the validity of the Password...
+
+**Step #2:** Next, inspect the Website and navigate to the "Network" tab. Conduct a failed Login by using a random Password. Note the Entry generated in the "Network" tab. Right-click on it and copy it as cURL...
+
+**Step #3:** Copy it and in your Terminal append this line that includes the Header we retrieved: -H 'X-Dev-Access: yes' \. The Response from this cURL Request will contain The Flag
+
+
+## Conclusion
+
+This Challenge tested your understanding of different Web Exploitation Techniques, such as Dev-Backdoors in this case...
